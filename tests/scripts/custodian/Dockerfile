@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:24.04
 WORKDIR /usr/app/src
 
 ARG AWS_ACCESS_KEY_ID
