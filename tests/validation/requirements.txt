@@ -10,4 +10,4 @@ kubernetes==12.0.1
 paramiko==3.4.0
 python-digitalocean==1.13.2
 PyYAML==6.0.1
-packaging==23.1
+packaging==24.2
