@@ -10,7 +10,7 @@ ENV HELM_VERSION v3.15.2
 ENV KUSTOMIZE_VERSION v5.4.2
 ENV HELM_UNITTEST_VERSION 0.3.2
 # k3d ci version
-ENV K3D_VERSION v5.7.1
+ENV K3D_VERSION v5.8.3
 
 # kontainer-driver-metadata branch to be set for specific branch other than dev/master, logic at rancher/rancher/pkg/settings/setting.go
 ENV CATTLE_KDM_BRANCH=release-v2.9
