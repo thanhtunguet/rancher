@@ -22,7 +22,7 @@ jobs:
   promote:
     runs-on: ubuntu-latest
     container:
-      image: quay.io/skopeo/stable:v1.15
+      image: quay.io/skopeo/stable:v1.18
     permissions:
       contents: read
       id-token: write
