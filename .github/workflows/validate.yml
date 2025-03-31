@@ -3,7 +3,7 @@ on: [pull_request, push]
 jobs:
   validate:
     runs-on: org-${{ github.repository_owner_id }}-amd64-k8s
-    container: registry.suse.com/bci/python:3.11
+    container: registry.suse.com/bci/python:3.13
     env:
       GOLANG_CI_LINT_VERSION: v1.54.2
       GOLANG_VERSION: '1.23'
