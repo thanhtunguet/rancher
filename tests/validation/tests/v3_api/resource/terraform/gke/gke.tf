@@ -1,6 +1,6 @@
 provider "google" {
   region = var.region
-  version = "~> 4.53.1"
+  version = "~> 6.28.0"
   credentials = var.credentials
   project = "ei-container-platform-qa"
 }
