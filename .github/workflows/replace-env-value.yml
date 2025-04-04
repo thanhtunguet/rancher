@@ -26,7 +26,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
-        uses: actions/checkout@v2
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
       - name: Replace tags
         run: |
           bash ./scripts/replace-env-value-in-file.sh ${INPUT_FILEPATH} ${INPUT_ENVVAR} ${INPUT_ENVVALUE}
@@ -54,7 +54,7 @@ jobs:
       - name: Create Pull Request
         if: ${{ env.changes_exist == 'true' }}
         id: cpr
-        uses: actions/github-script@v5.0.0
+        uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea # v7.0.1
         env:
           SOURCE_BRANCH: ${{ steps.branch.outputs.branch }}
         with:
