@@ -21,7 +21,7 @@ import (
 	helmlib "github.com/rancher/rancher/pkg/helm"
 	managementschema "github.com/rancher/rancher/pkg/schemas/management.cattle.io/v3"
 	"github.com/sirupsen/logrus"
-	"gopkg.in/yaml.v2"
+	"gopkg.in/yaml.v3"
 )
 
 type TemplateVerionFormatterWrapper struct {

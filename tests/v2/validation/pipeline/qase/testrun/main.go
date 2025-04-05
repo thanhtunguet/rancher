@@ -10,7 +10,7 @@ import (
 	qasedefaults "github.com/rancher/rancher/tests/v2/validation/pipeline/qase"
 	"github.com/sirupsen/logrus"
 	qase "go.qase.io/client"
-	"gopkg.in/yaml.v2"
+	"gopkg.in/yaml.v3"
 )
 
 const (

@@ -5,7 +5,7 @@ import (
 
 	"github.com/rancher/rancher/tests/v2/actions/upgradeinput"
 	"github.com/sirupsen/logrus"
-	"gopkg.in/yaml.v2"
+	"gopkg.in/yaml.v3"
 )
 
 // ReleaseUpgradeConfigKey is the key name of ReleaseUpgradeConfig values in the cattle config

@@ -16,7 +16,7 @@ import (
 	"github.com/rancher/shepherd/pkg/file"
 	"github.com/rancher/shepherd/pkg/session"
 	"github.com/sirupsen/logrus"
-	"gopkg.in/yaml.v2"
+	"gopkg.in/yaml.v3"
 	kwait "k8s.io/apimachinery/pkg/util/wait"
 )
 

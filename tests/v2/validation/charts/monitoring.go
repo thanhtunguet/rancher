@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/rancher/rancher/tests/v2/validation/charts/resources"
-	"gopkg.in/yaml.v2"
+	"gopkg.in/yaml.v3"
 
 	"github.com/pkg/errors"
 	monitoringv1 "github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring/v1"

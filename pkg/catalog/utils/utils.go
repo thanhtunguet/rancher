@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 
 	"github.com/sirupsen/logrus"
-	"gopkg.in/yaml.v2"
+	"gopkg.in/yaml.v3"
 
 	v3 "github.com/rancher/rancher/pkg/apis/management.cattle.io/v3"
 	helmlib "github.com/rancher/rancher/pkg/helm"
