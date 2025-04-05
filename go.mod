@@ -130,8 +130,8 @@ require (
 	github.com/prometheus/client_model v0.6.1
 	github.com/prometheus/common v0.55.0
 	github.com/rancher/aks-operator v1.9.7
-	github.com/rancher/apiserver v0.3.0
-	github.com/rancher/channelserver v0.7.0
+	github.com/rancher/apiserver v0.5.1
+	github.com/rancher/channelserver v0.9.0
 	github.com/rancher/dynamiclistener v0.6.0
 	github.com/rancher/eks-operator v1.9.7
 	github.com/rancher/fleet/pkg/apis v0.10.8
@@ -229,6 +229,7 @@ require (
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/golang-jwt/jwt/v5 v5.2.1 // indirect
 	github.com/google/cel-go v0.20.1 // indirect
+	github.com/google/go-github/v67 v67.0.0 // indirect
 	github.com/google/s2a-go v0.1.8 // indirect
 	github.com/googleapis/enterprise-certificate-proxy v0.3.3 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.20.0 // indirect
@@ -329,7 +330,6 @@ require (
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/google/btree v1.1.2 // indirect
 	github.com/google/go-cmp v0.6.0 // indirect
-	github.com/google/go-github/v29 v29.0.3 // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/google/gofuzz v1.2.0 // indirect
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510 // indirect
