@@ -93,7 +93,7 @@ require (
 	github.com/coreos/go-iptables v0.6.0
 	github.com/coreos/go-oidc/v3 v3.13.0
 	github.com/coreos/go-semver v0.3.1
-	github.com/creasty/defaults v1.5.2
+	github.com/creasty/defaults v1.8.0
 	github.com/crewjam/saml v0.4.14
 	github.com/docker/distribution v2.8.3+incompatible
 	github.com/docker/docker v25.0.3+incompatible
