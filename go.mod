@@ -152,7 +152,7 @@ require (
 	github.com/stretchr/testify v1.10.0
 	github.com/tomnomnom/linkheader v0.0.0-20180905144013-02ca5825eb80
 	github.com/urfave/cli v1.22.15
-	github.com/vishvananda/netlink v1.2.1-beta.2
+	github.com/vishvananda/netlink v1.3.0
 	github.com/vmware/govmomi v0.42.0
 	go.uber.org/mock v0.5.0
 	golang.org/x/crypto v0.36.0
