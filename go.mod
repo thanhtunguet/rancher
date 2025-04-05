@@ -87,7 +87,7 @@ require (
 	github.com/Masterminds/sprig/v3 v3.2.3
 	github.com/aws/aws-sdk-go v1.55.5
 	github.com/aws/aws-sdk-go-v2 v1.36.3
-	github.com/aws/aws-sdk-go-v2/service/eks v1.60.1
+	github.com/aws/aws-sdk-go-v2/service/eks v1.63.1
 	github.com/bep/debounce v1.2.1
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/coreos/go-iptables v0.6.0
