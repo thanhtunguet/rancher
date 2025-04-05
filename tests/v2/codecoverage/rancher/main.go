@@ -19,7 +19,7 @@ import (
 	"github.com/rancher/rancher/pkg/version"
 	"github.com/rancher/shepherd/pkg/killserver"
 	"github.com/sirupsen/logrus"
-	"github.com/urfave/cli"
+	"github.com/urfave/cli/v3"
 )
 
 var (

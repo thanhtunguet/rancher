@@ -10,7 +10,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/rancher/rancher/pkg/auth/api/user"
 	v3 "github.com/rancher/rancher/pkg/generated/norman/management.cattle.io/v3"
-	"github.com/urfave/cli"
+	"github.com/urfave/cli/v3"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/client-go/tools/clientcmd"
