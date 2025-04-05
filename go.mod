@@ -130,7 +130,7 @@ require (
 	github.com/prometheus/client_model v0.6.1
 	github.com/prometheus/common v0.55.0
 	github.com/rancher/aks-operator v1.9.7
-	github.com/rancher/apiserver v0.3.0
+	github.com/rancher/apiserver v0.6.0
 	github.com/rancher/channelserver v0.7.0
 	github.com/rancher/dynamiclistener v0.6.0
 	github.com/rancher/eks-operator v1.9.7
@@ -146,7 +146,7 @@ require (
 	github.com/rancher/steve v0.3.1
 	github.com/rancher/system-upgrade-controller/pkg/apis v0.0.0-20240301001845-4eacc2dabbde
 	github.com/rancher/wrangler v1.1.2
-	github.com/rancher/wrangler/v3 v3.1.0
+	github.com/rancher/wrangler/v3 v3.2.0-rc.3
 	github.com/robfig/cron v1.2.0
 	github.com/sirupsen/logrus v1.9.3
 	github.com/stretchr/testify v1.10.0
@@ -171,7 +171,7 @@ require (
 	k8s.io/api v0.32.1
 	k8s.io/apiextensions-apiserver v0.31.1
 	k8s.io/apimachinery v0.32.1
-	k8s.io/apiserver v0.31.1
+	k8s.io/apiserver v0.32.1
 	k8s.io/cli-runtime v0.30.10
 	k8s.io/client-go v12.0.0+incompatible
 	k8s.io/helm v2.17.0+incompatible
@@ -427,7 +427,7 @@ require (
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	k8s.io/cluster-bootstrap v0.29.3 // indirect
 	k8s.io/code-generator v0.31.1 // indirect
-	k8s.io/component-base v0.31.1 // indirect
+	k8s.io/component-base v0.32.1 // indirect
 	k8s.io/component-helpers v0.30.10 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20241105132330-32ad38e42d3f // indirect
@@ -437,5 +437,5 @@ require (
 	sigs.k8s.io/json v0.0.0-20241010143419-9aa6b5e7a4b3 // indirect
 	sigs.k8s.io/kustomize/api v0.15.0 // indirect
 	sigs.k8s.io/kustomize/kyaml v0.17.1 // indirect
-	sigs.k8s.io/structured-merge-diff/v4 v4.4.2 // indirect
+	sigs.k8s.io/structured-merge-diff/v4 v4.4.3 // indirect
 )
